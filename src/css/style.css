@@ -1,0 +1,133 @@
+html, body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  font-size: 1.4rem;
+  height: 100%;
+  position: relative;
+}
+
+.introduction {
+  background-image: var(--primary-gradient);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15.7rem;
+  width: 60%;
+}
+
+.introduction h1 {
+  font-size: clamp(2.4rem, 3vw, 4rem);
+}
+
+.introduction p {
+  font-size: clamp(1.2rem, 1.5vw, 1.8rem);
+  font-weight: 500;
+}
+
+.introduction a {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 13.5rem;
+  height: 3.7rem;
+  border-radius: 3rem;
+  margin-top: 2.3rem;
+}
+
+.record {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 40%;
+  width: 100%;
+  padding: 0 11.3rem;
+  margin-right: 2rem;
+}
+
+.record .wrapper-info-record {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.record .wrapper-info-record h2 {
+  color: var(--dark); 
+  font-size: 2.6rem;
+  height: 3.9rem;
+  padding-bottom: 0.3rem;
+}
+
+.record .wrapper-info-record p {
+  color: var(--dark);
+  font-size: clamp(1.2rem, 1.4vw, 1.8rem);
+}
+
+.record .wrapper-info-record p a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.record .form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-top: 4rem;
+}
+
+.record .form div {
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  width: 30.7rem;
+  border-radius: 3rem;
+  border: 0.1rem solid var(--light);
+  gap: 0.8rem;
+  padding: 1.8rem 2.6rem;
+}
+
+.record .form div input::placeholder {
+  color: var(--dark);
+  opacity: 0.3;
+}
+
+.record .form button {
+  background: var(--primary-color);
+  color: var(--white);
+  width: 30.7rem;
+  border-radius: 3rem;
+  padding: 1.8rem 2.6rem;
+  transition: 0.3s ease-in-out;
+}
+
+.record .form button:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.record .form a {
+  color: var(--dark);
+  opacity: 0.6;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.record .form .return {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+}
+
+figure {
+  position: absolute;
+  bottom: 0;
+}
+
+figure img {
+  width: 30rem;
+}

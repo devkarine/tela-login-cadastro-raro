@@ -1,0 +1,27 @@
+@media (max-width: 1040px) {
+  main {
+    flex-direction: column;
+  }
+
+  .introduction {
+    clip-path: polygon(0 0, 57% 0, 100% 0, 100% 67%, 0 100%, 33% 100%, 0 100%);
+    min-width: 100%;
+    height: 19.3rem;
+    padding-left: 2.7rem;
+  }
+
+  .introduction a, figure {
+    display: none;
+  }
+
+  .record {
+    max-width: 100%;
+    align-items: center;
+    padding-top: 7rem;
+  }
+
+  .record .wrapper-info-record {
+    width: 30rem;
+    align-items: flex-start;
+  }
+}

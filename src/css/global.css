@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button, input {
+  border: none;
+  background-color: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  outline: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --primary-gradient: linear-gradient(180deg,#0575e6 0%, #02298a 84.79%, #021b79 100%);
+  --primary-color: #0575e6;
+  --secondary-color: #0553a3;
+  --white: #ffffff;
+  --light: #eeeeee;
+  --dark: #333333;
+  
+}
