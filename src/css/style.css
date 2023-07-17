@@ -115,12 +115,13 @@ main {
   color: var(--dark);
   opacity: 0.6;
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 1.7rem 0;
 }
 
 .record .form .return {
   color: var(--primary-color);
   font-size: 1.8rem;
+  padding: 2.6rem 0;
 }
 
 figure {

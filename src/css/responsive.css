@@ -24,4 +24,8 @@
     width: 30rem;
     align-items: flex-start;
   }
+
+  .record .form .return {
+    padding: 2.1rem 0;
+  }
 }
