@@ -1,0 +1,62 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding-top: 4rem;
+}
+
+.form .wrapper-input {
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  width: 30.7rem;
+  border-radius: 3rem;
+  border: 0.1rem solid var(--light);
+  gap: 0.8rem;
+  padding: 1.8rem 2.6rem;
+}
+
+.form .wrapper-input .input::placeholder {
+  color: var(--dark);
+  opacity: 0.3;
+}
+
+.form a {
+  color: var(--dark);
+  opacity: 0.6;
+  text-align: center;
+  padding: 1.7rem 0;
+}
+
+.form .return {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1.2rem;
+}
+
+.checkbox-input {
+  height: 20px;
+  width: 25px;
+  appearance: none;
+  border-radius: 4px;
+  background-color: #EEEEEE;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.checkbox-input:checked::before {
+  content: '\2716';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+

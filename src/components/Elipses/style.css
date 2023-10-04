@@ -1,0 +1,8 @@
+figure {
+  position: absolute;
+  bottom: 0;
+}
+
+figure img {
+  height: 18rem;
+}

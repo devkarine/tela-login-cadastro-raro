@@ -1,19 +1,23 @@
-# 💻 Tela de Login/Cadastro
+# 💻 Go Finance
 
 ## 📜 Task
 
-Projeto proposto pelo curso de react da Raro Academy, com o objetivo de reproduzir uma tela de login/cadastro o mais fiel possível ao design disponibilizado usando o figma.
+Projeto proposto pelo curso de react da Raro Academy, com o objetivo de reproduzir uma tela de login/cadastro utilizando de react, realizando as bibliotecas Formik e Yup para formalários e validações.
 
 ## 📝 Foi utilizado
 
 - HTML5
 - CSS3
+- React
+- TypeScript
 - Responsividade
 - Clean Code
 
-## 📺 Demonstração
+### Instalação para rodar o projeto localmente
 
-<img src="src/img/demonstracao.gif" alt="Gif exibindo uma demonstração do site">     
+> npm install  
+> npm run dev
+   
 
 ## 👩‍💻 Desenvolvedora front end
 

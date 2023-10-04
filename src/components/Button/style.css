@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--white);
+  border-radius: 3rem;
+  padding: 1.8rem 2.6rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: var(--grey);
+  color: var(--grey-01);
+}
+
+.btn:hover:not(:disabled) {
+  background-color: var(--secondary-color);
+}
+

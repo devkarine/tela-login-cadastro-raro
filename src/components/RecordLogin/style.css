@@ -1,0 +1,36 @@
+.record {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 40%;
+    width: 100%;
+    padding: 0 11.3rem;
+    margin-right: 2rem;
+  }
+  
+  .record .wrapper-info-record {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .record .wrapper-info-record h2 {
+    color: var(--dark); 
+    font-size: 2.6rem;
+    height: 3.9rem;
+    padding-bottom: 0.3rem;
+  }
+  
+  .record .form a {
+    color: var(--dark);
+    opacity: 0.6;
+    text-align: center;
+    padding: 1.7rem 0;
+  }
+  
+  .record a {
+    width: 100%;
+    color: var(--primary-color);
+    font-weight: 600;
+  }

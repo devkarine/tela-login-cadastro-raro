@@ -1,0 +1,26 @@
+.introduction {
+  background-image: var(--primary-gradient);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.wrapper-introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.3rem;
+  padding: 2rem;
+}
+
+.introduction h1 {
+  font-size: clamp(2.4rem, 3vw, 4rem);
+}
+
+.introduction p {
+  font-size: clamp(1.2rem, 1.5vw, 1.8rem);
+  font-weight: 500;
+}
